@@ -4,7 +4,7 @@
 
 	* marker-style
 	* marker-style-general
-	
+
 	* marker-layout
 */
 * {
@@ -33,32 +33,43 @@ a {
 
 /*	marker-clear-layout	*/
 
-body {
+body>div {
 	width:1200px; /* @media ab max-width=width umstellen */
 
 	min-height:600px;
 	margin:auto;
 }
-	@media screen and (max-width: 1199px) {body {width:900px;}}
-	@media screen and (max-width: 899px) {body {width:100%;}}
-body>div {
+	@media screen and (max-width: 1199px) {body>div {width:900px;}}
+	@media screen and (max-width: 899px) {body>div {width:100%;}}
+#frame, 
+body>footer>div {
 	position:relative;
 	padding:10px;
 }
-body>div>* {
+#frame>*,
+body>footer>div>* {
 	position:relative;
 	width:100%;
 	padding:10px 0;
 }
-header nav {
+#frame>header nav {
 	position:absolute;
 	bottom:10px; right:0;
 }
-header nav li {
+#frame>header nav li {
 	display:inline;
 }
+#frame>footer {
+
+}
+body>footer {
+	position:absolute;
+	bottom:0px;
+
+	width:100%;
+}
 @media screen and (max-width: 899px) {
-	body {width:100%;}
+	body>div {width:100%;}
 }
 
 
@@ -66,14 +77,14 @@ header nav li {
 
 /*	marker-style-general	*/
 
-html {
-	background:url('texture_turq.jpg') repeat;
-}
-
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight:normal;	
 	font-size:16px;
+	background:url('texture_turq.jpg') repeat;
+}
+
+body>div> {
 	background:url('light.png') top center no-repeat;
 }
 
