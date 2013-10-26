@@ -1,16 +1,18 @@
 /* Content:
-	* CLEAR
-	* STYLE
-	* LAYOUT
+	* marker-clear
+	* marker-clear-layout
+
+	* marker-style
+	* marker-style-general
+	
+	* marker-layout
 */
 * {
 	outline:1px solid #000
 }
 
 
-
-/*	CLEAR	*/
-
+/*	marker-clear	*/
 
 * {
 	margin:0; padding:0;
@@ -29,28 +31,53 @@ a {
 }
 
 
-/*	STYLE	*/
+/*	marker-clear-layout	*/
 
+body {
+	width:1200px; /* @media ab max-width=width umstellen */
+
+	min-height:600px;
+	margin:auto;
+}
+	@media screen and (max-width: 1199px) {body {width:900px;}}
+	@media screen and (max-width: 899px) {body {width:100%;}}
+body>div {
+	position:relative;
+	padding:10px;
+}
+body>div>* {
+	position:relative;
+	width:100%;
+	padding:10px 0;
+}
+header nav {
+	position:absolute;
+	bottom:10px; right:0;
+}
+header nav li {
+	display:inline;
+}
+@media screen and (max-width: 899px) {
+	body {width:100%;}
+}
+
+
+/*	marker-style	*/
+
+/*	marker-style-general	*/
+
+html {
+	background:url('texture_turq.jpg') repeat;
+}
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight:normal;	
 	font-size:16px;
+	background:url('light.png') top center no-repeat;
 }
 
 
-/*	LAYOUT	*/
+/*	marker-layout	*/
 
 
-body {
-	
-}
-@media screen and (max-width: 400px) {
-
-}
-@media screen and (max-width: 719px) {
-
-}
-@media screen and (max-width: 1019px) {
-
-}
