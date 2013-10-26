@@ -1,0 +1,56 @@
+/* Content:
+	* CLEAR
+	* STYLE
+	* LAYOUT
+*/
+* {
+	outline:1px solid #000
+}
+
+
+
+/*	CLEAR	*/
+
+
+* {
+	margin:0; padding:0;
+	border:none;
+	line-height:1em;
+}
+body {
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+a {
+	text-decoration:none;
+}
+.clear {
+	clear:both;
+}
+
+
+/*	STYLE	*/
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:normal;	
+	font-size:16px;
+}
+
+
+/*	LAYOUT	*/
+
+
+body {
+	
+}
+@media screen and (max-width: 400px) {
+
+}
+@media screen and (max-width: 719px) {
+
+}
+@media screen and (max-width: 1019px) {
+
+}
