@@ -38,7 +38,7 @@ body {
 	font-size:16px;
 	background:url('texture_turq.jpg') repeat;
 }
-body>div> {
+body>div {
 	background:url('light.png') top center no-repeat;
 }
 
