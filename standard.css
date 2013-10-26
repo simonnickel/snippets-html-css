@@ -1,10 +1,9 @@
 /* Content:
 	* marker-clear
-	* marker-clear-layout
+	* marker-general-style
+	* marker-general-layout
 
 	* marker-style
-	* marker-style-general
-
 	* marker-layout
 */
 * {
@@ -31,7 +30,21 @@ a {
 }
 
 
-/*	marker-clear-layout	*/
+/*	marker-general-style	*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:normal;	
+	font-size:16px;
+	background:url('texture_turq.jpg') repeat;
+}
+
+body>div> {
+	background:url('light.png') top center no-repeat;
+}
+
+
+/*	marker-general-layout	*/
 
 body>div {
 	width:1200px; /* @media ab max-width=width umstellen */
@@ -75,18 +88,7 @@ body>footer {
 
 /*	marker-style	*/
 
-/*	marker-style-general	*/
 
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight:normal;	
-	font-size:16px;
-	background:url('texture_turq.jpg') repeat;
-}
-
-body>div> {
-	background:url('light.png') top center no-repeat;
-}
 
 
 /*	marker-layout	*/
