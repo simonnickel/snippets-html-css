@@ -1,17 +1,24 @@
-/* Content:
-	* marker-clear
-	* marker-general-style
-	* marker-general-layout
+/*
+Theme Name: wp_init_theme
+Author: Simon Nickel
+Author URI: http://simonnickel.de
+Description: Just a kickstart.
+Version: 1.0
 
-	* marker-style
-	* marker-layout
-*/
+
+Content:
+	* markClear
+	* markGeneralStyle
+	* markGeneralLayout
+
+	* markStyle
+	* markLayout
+*
 * {
 	outline:1px solid #000
 }
 
-
-/*	marker-clear	*/
+/*	markClear	*/
 
 * {
 	margin:0; padding:0;
@@ -30,16 +37,16 @@ a {
 }
 
 
-/*	marker-general-style	*/
+/*	markGeneralStyle	*/
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight:normal;	
 	font-size:16px;
-	background:url('texture_turq.jpg') repeat;
+	background:url('background.jpg') repeat;
 }
 body>div {
-	background:url('light.png') top center no-repeat;
+	background:url('background-highlight.png') top center no-repeat;
 }
 
 p {
@@ -47,7 +54,7 @@ p {
 }
 
 
-/*	marker-general-layout	*/
+/*	markGeneralLayout	*/
 
 body>div {
 	width:1200px; /* @media ab max-width=width umstellen */
@@ -87,11 +94,11 @@ body>footer {
 }
 
 
-/*	marker-style	*/
+/*	markStyle	*/
 
 
 
 
-/*	marker-layout	*/
+/*	markLayout	*/
 
 
