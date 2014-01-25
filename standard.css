@@ -1,19 +1,11 @@
-/*
-Theme Name: wp_init_theme
-Author: Simon Nickel
-Author URI: http://simonnickel.de
-Description: Just a kickstart.
-Version: 1.0
-
-
-Content:
+/* Content:
 	* markClear
 	* markGeneralStyle
 	* markGeneralLayout
 
 	* markStyle
 	* markLayout
-*
+*/
 * {
 	outline:1px solid #000
 }
@@ -64,29 +56,25 @@ body>div {
 }
 	@media screen and (max-width: 1199px) {body>div {width:900px;}}
 	@media screen and (max-width: 899px) {body>div {width:100%;}}
-#frame, 
+.wrapper, 
 body>footer>div {
 	position:relative;
 	padding:10px;
 }
-#frame>*,
+.wrapper>*,
 body>footer>div>* {
 	position:relative;
 	width:100%;
 	padding:10px 0;
 }
-#frame>header nav {
+.wrapper>header nav {
 	position:absolute;
 	bottom:10px; right:0;
 }
-#frame>header nav li {
+.wrapper>header nav li {
 	display:inline;
 }
-#frame>footer {
-
-}
 body>footer {
-
 	width:100%;
 }
 @media screen and (max-width: 899px) {
