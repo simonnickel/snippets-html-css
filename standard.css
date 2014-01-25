@@ -7,25 +7,25 @@
 	* markLayout
 */
 * {
-	outline:1px solid #000
+	outline: 1px solid #000
 }
 
 /*	markClear	*/
 
 * {
-	margin:0; padding:0;
-	border:none;
-	line-height:1em;
+	margin: 0; padding: 0;
+	border: none;
+	line-height: 1em;
 }
 body {
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 a {
-	text-decoration:none;
+	text-decoration: none;
 }
 .clear {
-	clear:both;
+	clear: both;
 }
 
 
@@ -33,50 +33,50 @@ a {
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-weight:normal;	
-	font-size:16px;
-	background:url('background.jpg') repeat;
+	font-weight: normal;	
+	font-size: 16px;
+	background: url('background.jpg') repeat;
 }
 .wrap-body {
-	background:url('background-highlight.png') top center no-repeat;
+	background: url('background-highlight.png') top center no-repeat;
 }
 
 p {
-	line-height:1.5em;
+	line-height: 1.5em;
 }
 
 
 /*	markGeneralLayout	*/
 
 .wrap-body {
-	width:1200px; /* @media ab max-width=width umstellen */
+	width: 1200px; /* @media ab max-width=width umstellen */
 
-	min-height:600px;
-	margin:auto;
+	min-height: 600px;
+	margin: auto;
 }
-	@media screen and (max-width: 1199px) {.wrap-body {width:900px;}}
-	@media screen and (max-width: 899px) {.wrap-body {width:100%;}}
+	@media screen and (max-width: 1199px) {.wrap-body {width: 900px;}}
+	@media screen and (max-width: 899px) {.wrap-body {width: 100%;}}
 .wrap-content {
-	position:relative;
-	padding:10px;
+	position: relative;
+	padding: 10px;
 }
 .wrap-content>* {
-	position:relative;
-	width:100%;
-	padding:10px 0;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
 }
 .wrap-content>header nav {
-	position:absolute;
-	bottom:10px; right:0;
+	position: absolute;
+	bottom: 10px; right: 0;
 }
 .wrap-content>header nav li {
-	display:inline;
+	display: inline;
 }
 body>footer {
-	width:100%;
+	width: 100%;
 }
 @media screen and (max-width: 899px) {
-	.wrap-body {width:100%;}
+	.wrap-body {width: 100%;}
 }
 
 
