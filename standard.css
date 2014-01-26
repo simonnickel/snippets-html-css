@@ -64,7 +64,6 @@ p {
 }
 	@media screen and (max-width: 920px) {.wrap-body>section {width: 100%;}}
 .wrap-body>section>* {
-	position: relative;
 	padding: 10px;
 }
 main {
@@ -87,7 +86,8 @@ footer .wrap-body>section>* {
 
 /*	markLayoutHeader	*/
 body>header nav {
-	float:right;
+	position: absolute;
+	top: 0; right: 0;
 }
 body>header nav li {
 	display: inline;
