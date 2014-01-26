@@ -40,8 +40,8 @@ body>header,
 body>footer,
 body>main,
 .wrap-body,
-.wrap-content,
-.wrap-content>* {
+.wrap-body>section,
+.wrap-body>section>* {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -57,24 +57,20 @@ p {
 	margin: auto;
 }
 	@media screen and (max-width: 1200px) {.wrap-body {width: 100%;}}
-.wrap-content {
+.wrap-body>section {
 	width: 900px;
 	margin: auto;
 	position: relative;
 }
-	@media screen and (max-width: 920px) {.wrap-content {width: 100%;}}
-.wrap-content>* {
+	@media screen and (max-width: 920px) {.wrap-body>section {width: 100%;}}
+.wrap-body>section>* {
 	position: relative;
 	padding: 10px;
 }
-body>header, 
-body>footer  {
-	width: 100%;
-}
-body>main {
+main {
 	margin: 70px 0;
 }
-section.wrap-content {
+main .wrap-body>section {
 	margin: 40px auto;
 }
 article {
